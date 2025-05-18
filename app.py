@@ -16,6 +16,7 @@ with col1:
 with col2:
     query = st.text_area("Ask a question about the drawing:")
 
+# Now you can safely use uploaded_file and query
 if uploaded_file and query:
     image = Image.open(uploaded_file)
     st.image(image, caption="Uploaded Drawing", use_column_width=True)
