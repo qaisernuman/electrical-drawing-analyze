@@ -1,6 +1,6 @@
 
 streamlit
-pytesseract
+easyocr
 Pillow
 networkx
 matplotlib
